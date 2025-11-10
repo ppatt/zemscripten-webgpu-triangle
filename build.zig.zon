@@ -1,0 +1,22 @@
+.{
+    .fingerprint = 0x18208c28dd17b752, // Changing this has security and trust implications.
+    .name = .helloglfwzgpuwasm,
+    .version = "0.0.1",
+    .dependencies = .{
+        .emsdk = .{
+            .url = "https://github.com/emscripten-core/emsdk/archive/refs/tags/4.0.19.tar.gz",
+            .hash = "N-V-__8AAObtDwDKEMdQFsfASPQ-tfjY1zr4ILHh_Kk0ahvn",
+            // .path = "emsdk",
+        },
+        .zemscripten = .{
+            .url = "git+https://github.com/zig-gamedev/zemscripten#dca717d4779423768ce4b8723f2bf8aeb14468b2",
+            .hash = "zemscripten-0.2.0-dev-sRlDqGdQAADOptI5YVB9W3hsuHjwI3b6crwRZjZfOk90",
+        },
+    },
+    .minimum_zig_version = "0.15.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
