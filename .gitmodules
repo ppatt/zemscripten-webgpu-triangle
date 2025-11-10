@@ -1,0 +1,3 @@
+[submodule "zemscripten"]
+	path = zemscripten
+	url = git@github.com:ppatt/zemscripten.git
